@@ -6,3 +6,4 @@ username = username.replace(" ", "_")
 password_length = len(password) #فينا نعملها عن طريق for loop
 print("Name:"+username)
 print("Password:",password)
+print("If the password length is greater than or equal to 8:", password_length >= 8)
